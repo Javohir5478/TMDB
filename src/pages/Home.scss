@@ -1,0 +1,49 @@
+.home_container {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    gap:40px;
+    justify-content: center;
+    background-color: #000;
+    border:2px solid #fff;
+    border-radius: 20px;
+    flex: 300px;
+        margin: 30px;
+
+    .card_home  {
+        height: 350px;
+        width: 175px;
+        border:2px solid #000;
+        border-radius: 10px;
+        margin: 5px;
+        background-color: crimson;
+           
+        h3 {
+            color:#fff;
+            margin: 10px;
+            text-decoration: none;
+            
+        }
+        h5{
+            bottom: 0;
+        }
+        img{
+            width: 175px;
+            height: 200px;
+            border-radius: 5px;
+        }
+    }
+        .card_home:hover {
+            border: 3px solid crimson;
+                transform: translateY(5px);
+            
+    
+            & h3,h5 {
+                transform: translateY(-10px);
+            }
+    
+            & img {
+                transform: translateY(5px);
+            }
+        }
+        
+}

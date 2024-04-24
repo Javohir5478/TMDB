@@ -1,0 +1,208 @@
+
+.movie-detailes-img > img {
+  max-height: 600px;
+  width: 100%;
+  border-radius: 8px 0 0 8px;
+}
+
+.movie-detailes-text {
+  padding: 4rem 2rem;
+  height: 100%;
+  background-color: #22333b;
+  border-radius: 0 8px 8px 0;
+}
+.movie-detailes-text .overview {
+  color: #f2f4f3;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  margin-bottom: 2rem !important;
+}
+.movie-detailes-text p {
+  color: #f2f4f3;
+  font-weight: 500;
+  font-size: 0.99rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.7rem !important;
+}
+.movie-detailes-text p span {
+  color: #53dd98;
+  font-weight: 300;
+}
+
+@media (max-width: 900px) {
+  .movie-detailes-text {
+    padding: 1rem !important;
+    border-radius: 0 0 8px 8px;
+  }
+  .movie-detailes-img > img {
+    border-radius: 8px 8px 0 0 !important;
+  }
+}
+.popular-section {
+  padding: 5rem 0;
+}
+
+.hero-section {
+  padding: 5rem 0;
+}
+.hero-section .hero-text {
+  padding: 0 1.5rem;
+  line-height: 1.5;
+}
+.hero-section .hero-text h3 {
+  color: #53dd98;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.hero-section .hero-text p {
+  color: #f2f4f3;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+.hero-section .hero-text .search-link a {
+  color: #53dd98;
+  background-color: transparent;
+  padding: 1rem 4rem;
+  font-weight: 700;
+  border-radius: 35px;
+  border: 1px solid #53dd98;
+  outline: none;
+  display: inline-block;
+  transition: all 0.4s ease;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+}
+.hero-section .hero-text .search-link a:hover {
+  text-decoration: none;
+  border-color: #f2f4f3;
+  color: #f2f4f3;
+}
+
+.hero-img > img {
+  overflow: hidden;
+  animation: spin 16s infinite linear;
+  overflow: hidden;
+}
+
+.movies-heading {
+  color: #53dd98;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.single-movie-img {
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+}
+.single-movie-img:hover > img {
+  transform: scale(1.1);
+}
+.single-movie-img img {
+  transition: all 0.4s ease;
+  border-radius: 8px 8px 0 0;
+  min-height: 382px;
+}
+
+.single-movie-text {
+  border-radius: 0 0 8px 8px;
+  color: #f2f4f3;
+  background-color: #22333b;
+  padding: 0.7rem;
+}
+.single-movie-text .movie-title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.single-movie-text .movie-title a {
+  font-weight: 700;
+  font-size: 1.075rem;
+  text-decoration: none;
+  color: #f2f4f3;
+  transition: color 0.4s ease;
+}
+.single-movie-text .movie-title a:hover {
+  color: #53dd98;
+}
+.single-movie-text .release-date {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #53dd98;
+  margin: 1rem 0 0.4rem 0 !important;
+}
+.single-movie-text .release-date span {
+  font-weight: 300;
+  color: #f2f4f3;
+}
+.single-movie-text .rating {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #53dd98;
+}
+.single-movie-text .rating span {
+  font-weight: 300;
+  color: #f2f4f3;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 900px) {
+  .hero-section {
+    height: auto !important;
+  }
+  .hero-text {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .single-movie-img > img {
+    width: 100% !important;
+    min-height: 250px;
+  }
+}
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Yaldevi", sans-serif;
+  overflow-x: hidden;
+  background: #1d1b19;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+/* .search-btn {
+  background-color: $primary-color;
+  font-weight: 500;
+  border-radius: 8px;
+  outline: 0;
+  border: 1px solid $accent-color;
+  color: $accent-color;
+  padding: 0.5rem 1.5rem;
+  margin: 1rem 0;
+  &:hover {
+    color: $basic-color;
+    border-color: $basic-color;
+  }
+} *//*# sourceMappingURL=style.css.map */
